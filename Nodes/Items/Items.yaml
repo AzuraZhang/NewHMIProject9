@@ -142,3 +142,16 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Checkbox1"}
+- Name: Button12
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Button12
+    Id: g=243e5e715d8c242b79d3ca5a5c070ede
+    Supertype: Button
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Button1"}
