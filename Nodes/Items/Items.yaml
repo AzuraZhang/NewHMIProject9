@@ -155,3 +155,25 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Button1"}
+- Name: LED1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LED1
+    Id: g=8b2831edc16cfa0f553b1ac14b320d49
+    Supertype: Led
+    ReferenceType: HasComponent
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
